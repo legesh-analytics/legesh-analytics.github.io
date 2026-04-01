@@ -81,6 +81,26 @@ text-decoration:none;
   line-height:1.6;
 }
 
+.featured-project {
+  border: 2px solid #60a5fa;
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.15), 0 12px 30px rgba(0, 0, 0, 0.18);
+  position: relative;
+}
+
+.featured-label {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #2563eb;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+  
 </style>
 </head>
 
@@ -119,11 +139,12 @@ My work focuses on solving real organizational problems through structured analy
   <h2>Featured Analytics Projects</h2>
 
 
-<div class="project-card">
+<div class="project-card featured-project">
+  <div class="featured-label">Featured Project</div>
   <h3>HR Attrition Risk Analytics</h3>
   <p>
-    End-to-end HR analytics project covering data generation, attrition risk scoring,
-    dashboarding, and business recommendations.
+    Built a realistic HR workforce dataset and developed an end-to-end attrition risk analytics project covering
+    lifecycle modeling, risk scoring, dashboarding, and business recommendations.
   </p>
   <a href="hr-attrition-project.html">View Project</a>
 </div>
